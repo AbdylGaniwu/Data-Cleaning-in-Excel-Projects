@@ -1,9 +1,9 @@
-#Data Cleaning: Movies Dataset
-
-##Project Overview:
+**Data Cleaning: Movies Dataset
+**
+Project Overview:
 This project focuses on cleaning and organizing movie data to enhance its usability and analysis potential.
 
-##Data Cleaning Steps:
+Data Cleaning Steps:
 Combined Data Separation:
 =CONCAT("Written by: ", RIGHT(B2, LEN(B2)-FIND(":", B2)))
 
